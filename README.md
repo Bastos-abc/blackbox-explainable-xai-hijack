@@ -2,7 +2,7 @@
 
 Os códigos aqui disponibilizados foram baseados nos desenvolvidos pelos pesquisadores do artigo "A System to Detect Forged-Origin BGP Hijacks" disponível em https://dfoh.uclouvain.be/
 
-O código disponibilizado foi ajustado para análise das features com técnicas de XAI, com o uso da ferramenta Trustee (https://trusteeml.github.io/index.html), e os resultados obtidos estarão disponível no artigo "Abrindo a Caixa-Preta - Aplicando IA Explicável para Aprimorar a Detecção de Sequestros de Prefixo" que será apresentado no 24º Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg).
+O código disponibilizado foi ajustado para análise das features com técnicas de XAI, com o uso da ferramenta Trustee (https://trusteeml.github.io/index.html), e os resultados obtidos estarão disponíveis no artigo "Abrindo a Caixa-Preta - Aplicando IA Explicável para Aprimorar a Detecção de Sequestros de Prefixo" que será apresentado no 24º Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg).
 
 ## Ambiente de execução
 
