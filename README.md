@@ -24,7 +24,7 @@ A raiz de execução do código está ajustada no código para "/home/dfoh_nv"
 
 ## Criar dataset para execução
 
-O código "prepare_environment.py" é o responsável por preparar os dados necessários para execução inicial do sistema. 
+O código "prepare_environment.py" é o responsável por preparar os dados necessários para execução inicial do sistema. Sua execução é demorada devido ao volume de informação que tem que ser obtida de diversas fontes (repositórios).
 
 O período a ser analisado deve ser ajustado nas linhas 208 e 209 e a raiz de execução do sistema na linha 225.
 
