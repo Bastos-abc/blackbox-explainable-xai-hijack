@@ -120,7 +120,7 @@ def exec_analyse(folder, analise, features):
     print('Total de arquivos:', len(files))
     analysed = features_analyse(files, features)
     output = open('{}/features_{}.csv'.format(folder, analise), 'w')
-    print('Feature,Árvores,Total,No_topo', file=output)
+    print('Feature,DT,Total,root', file=output)
     for feature in analysed.keys():
         print(feature, analysed[feature]['dt'], analysed[feature]['total'], analysed[feature]['root'], sep=',',
               file=output)
