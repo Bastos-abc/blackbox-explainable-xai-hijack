@@ -113,14 +113,14 @@ def features_analyse(files, features):
     return analysed
 
 def exec_analyse(folder, analise, features):
-    print('Analisando arquivos existentes!!!!')
+    print('Analyzing exists files!!!!')
     files = get_files(folder, analise)
     print(folder, analise)
-    print('Coletando informações dos PDF!!!!')
-    print('Total de arquivos:', len(files))
+    print('Getting information from PDFs!!!!')
+    print('Total files:', len(files))
     analysed = features_analyse(files, features)
     output = open('{}/features_{}.csv'.format(folder, analise), 'w')
-    print('Feature,DT,Total,root', file=output)
+    print('Feature,DT,Total,Root', file=output)
     for feature in analysed.keys():
         print(feature, analysed[feature]['dt'], analysed[feature]['total'], analysed[feature]['root'], sep=',',
               file=output)
